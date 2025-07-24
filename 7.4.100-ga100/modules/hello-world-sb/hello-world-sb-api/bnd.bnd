@@ -1,0 +1,10 @@
+Bundle-Name: hello-world-sb-api
+Bundle-SymbolicName: hello.world.sb.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	hello.world.sb.exception,\
+	hello.world.sb.model,\
+	hello.world.sb.service,\
+	hello.world.sb.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../hello-world-sb-service/service.xml

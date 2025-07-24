@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.university.course.model.Course">
+		<field name="courseId" type="long" />
+		<field name="courseName" type="String" />
+		<field name="description" type="String" />
+		<field name="credits" type="int" />
+		<field name="students" type="int" />
+		<field name="instructor" type="String" />
+	</model>
+</model-hints>

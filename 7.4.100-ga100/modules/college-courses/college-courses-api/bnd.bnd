@@ -1,0 +1,10 @@
+Bundle-Name: college-courses-api
+Bundle-SymbolicName: com.university.course.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.university.course.exception,\
+	com.university.course.model,\
+	com.university.course.service,\
+	com.university.course.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../college-courses-service/service.xml

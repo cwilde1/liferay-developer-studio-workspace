@@ -1,0 +1,7 @@
+Bundle-Name: hello-world-portlet
+Bundle-SymbolicName: hello.world.portlet
+Bundle-Version: 1.0.0
+Export-Package: hello.world.portlet.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

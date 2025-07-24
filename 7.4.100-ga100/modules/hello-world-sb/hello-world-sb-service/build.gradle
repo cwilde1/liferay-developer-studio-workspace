@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:hello-world-sb:hello-world-sb-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../hello-world-sb-api/src/main/java"
+	testDir = "../hello-world-sb-test/src/testIntegration/java"
+}
+
+group = "hello.world.sb"

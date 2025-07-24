@@ -1,0 +1,7 @@
+Bundle-Name: staff-announcement-portlet
+Bundle-SymbolicName: com.college.staff
+Bundle-Version: 1.0.0
+Export-Package: com.college.staff.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

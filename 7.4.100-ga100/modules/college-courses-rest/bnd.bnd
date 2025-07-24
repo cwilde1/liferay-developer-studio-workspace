@@ -1,0 +1,4 @@
+Bundle-Name: college-courses-rest
+Bundle-SymbolicName: com.university.courses.rest
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
